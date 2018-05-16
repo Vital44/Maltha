@@ -1,0 +1,140 @@
+@media screen and (max-width: 1440px) {
+	.slide-1-blocks__item img {
+		width: 277px;
+		height: 310px;
+	}
+	.block {
+		padding-top: 82%;
+	}
+	.padding-top {
+		padding-top: 67%;
+	}
+	.slide-4 {
+		width: 56%;
+	}
+	.slide-4 img {
+		width: 204px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.slider-controls {
+		position: inherit;
+	}
+}
+@media screen and (max-width: 991px) {
+	.news-block {
+		width: 100%;
+	}
+	.mass-media {
+		margin-bottom: 60px;
+	}
+	.slide-1-blocks__item {
+		margin: 0 auto;
+	}
+	.equipment-img {
+		top: -70px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.slide-1-blocks__item {
+		margin: 0 auto;
+	}
+	.equipment-img {
+		top: -60px;
+	}
+	.triangle__item-2 {
+		top: -80px;
+	}
+	.triangle__item-3 {
+		top: -75px;
+	}
+	.triangle__item-4 {
+		top: -110px;
+	}
+	.line-form {
+		margin-bottom: 80px;
+	}
+	.slide-1-intro {
+		width: 100%;
+	}
+	.slide-1 {
+		margin-bottom: 80px;
+	}
+	.slide-2 {
+		width: 100%;
+		margin-bottom: 80px;
+	}
+	.slide-3 {
+		margin-bottom: 80px;
+	}
+	.slide-2__title {
+		width: 100%;
+		margin-top: 60px;
+	}
+	.slide-3 {
+		width: 100%;
+	}
+	.slide-3__intro {
+		width: 100%;
+		margin: 60px 0;
+	}
+	.slide-4 {
+		width: 100%;
+		margin-top: 60px;
+		margin-bottom: 80px;
+	}
+	.slide-4__title {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	.slide-5-item {
+		flex-wrap: wrap;
+	}
+	.slide-5-item__btn {
+		margin-bottom: 40px;
+	}
+	.slide-6 {
+		width: 100%;
+	}
+	.slide-7__title {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	.w-66 {
+		width: 100%;
+	}
+	.slide-2-intro__text {
+		width: 100%;
+	}
+	.title {
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
+	.geography__start {
+		width: 100%;
+	}
+	.geography__text {
+		width: 100%;
+		margin-left: 0;
+	}
+	.map-block {
+		width: 300px;
+		right: 30%;
+	}
+	.reviews__text {
+		width: 100%;
+	}
+	.intro__text {
+		width: 100%;
+		margin: 60px auto;
+	}
+	.margin-b {
+		margin-bottom: 80px;
+	}
+}
+@media screen and (max-width: 502px) {
+	.footer-text {
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}

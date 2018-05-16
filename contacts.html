@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Описание страницы">
+    <meta name="keywords" content="ключевые, слова, через, запятую">
+    <title>Maltha</title>
+	<!-- Favicon -->
+	<link rel="icon" href="img/logo-ogm.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo-ogm.png" type="image/x-icon">
+	<!-- OG-метки -->
+	<meta property="og:title" content="Заголовок страницы">
+	<meta property="og:description" content="Описание страницы">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="">
+	<!-- Яндекс.Вебмастер -->
+    <meta name="yandex-verification" content="6b641527ffa2aaae">
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div id="particles-wrapper">
+    <div class="white-block">
+        <header class="page-header">
+            <nav class="main-nav">
+                <ul class="menu">
+                    <button class="menu__close">x</button>
+                    <li class="menu__item">
+                        <a href="company.html">О компании <i class="fa fa-long-arrow-right"></i></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="services.html">Услуги <i class="fa fa-long-arrow-right"></i></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="equipment.html">Оборудование <i class="fa fa-long-arrow-right"></i></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="geography.html">География деятельности <i class="fa fa-long-arrow-right"></i></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="reviews.html">Отзывы <i class="fa fa-long-arrow-right"></i></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="news.html">Новости <i class="fa fa-long-arrow-right"></i></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="contacts.html">Контакты <i class="fa fa-long-arrow-right"></i></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="container z-1">
+                <div class="row">
+                    <div class="col">
+                        <button class="menu-open black"><i class="fa fa-navicon"></i></button>
+                        <div class="intro">
+                            <a href="index.html"><img src="img/logo-black.png" alt="logo"></a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="contacts">
+            <div class="container z-1">
+                <div class="row">
+                    <div class="col-lg">
+                        <h1 class="title">Контакты</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 d-flex flex-wrap justify-content-between mb-lg-0 mb-3">
+                        <div class="contacts-desc">
+                            <p class="contacts-desc__text">
+                                Россия, г. Москва,<br>
+                                Ярославское шоссе, дом 146/2, офис 105
+                            </p>
+                        </div>
+                        <div class="cont-next">
+                            <a class="cont-next__phone" href="tel:89032545323">
+                                +7 903 254 53 23
+                            </a>
+                            <a class="cont-next__email" href="mailto:info@maltabg.ru">
+                                info@maltabg.ru
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ml-auto">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="line-form">
+            <div class="container z-1">
+                <div class="row">
+                    <div class="col-lg-8 ml-auto"> 
+                        <form action="success.php" class="form js-form" id="popupResult" method="post" novalidate>
+                            <p class="form-title">Обратная связь</p>
+                            <input type="text" name="name" required placeholder="Имя" aria-required="true" class="form__field">
+                            <input type="text" name="surname" required placeholder="Фамилия" aria-required="true" class="form__field">
+                            <input type="tel" name="tel" required placeholder="Телефон" aria-required="true" class="form__field">
+                            <input type="email" name="email" required placeholder="E-mail" aria-required="true" class="form__field">
+                            <input type="text" name="company" required placeholder="Компания" aria-required="true" class="form__field">
+                            <button class="submit" data-submit>Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container z-1">
+                <div class="row">
+                    <div class="col col-lg-4">
+                    <div class="social-block d-flex">
+                            <a href="https://www.facebook.com" class="soc" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com" class="soc" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="https://www.youtube.com" class="soc" target="_blank">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </div> 
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="footer-text">
+                            Высокотехнологичная оснастка и сервис
+                            для нефтяных и газовых скважин
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="triangle"></div>
+        </footer>   
+        </div>
+    </div>
+
+    <div id="loader">
+		<img src="img/ripple.svg">
+	</div>
+	
+	<div id="overlay">
+    		<div id="thx">
+    			Спасибо! Мы обязательно вам перезвоним
+    		</div>
+   	</div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClHl67bz7fB6GdmnVpCuJ2aQ7lRL-sRM0&callback=initMap"
+    async defer></script>
+    <script src="js/jquery-3.3.1.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" defer></script>
+    <script src="config.js" defer></script>
+    <!--валидатор-->
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/form-map.js" defer></script>
+</body>
+</html>
